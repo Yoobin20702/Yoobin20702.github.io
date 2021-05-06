@@ -95,7 +95,7 @@ analytics:
 # Site Author
 author:
   name             : "경유빈"
-  avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+  avatar           : avatar: "/assets/images/images folder.png"
   bio              : "HAFS 16기"
   location         : "대한민국, 이천"
   email            : "nocturne8983@naver.com"
