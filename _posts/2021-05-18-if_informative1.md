@@ -96,3 +96,35 @@ int main()
     printf("%d시 &d분\n",hour-1,min+30);
   }
 ~~~
+
+###05. switch case 
+~~~c
+int main()
+{ 
+   int age;
+   int child, young, mid, old;
+   child=young=mid=old=0;
+   printf("나이를 입력하세요 : ");
+   scanf("%d, &age);
+   age=age/10;
+   
+   switch(age){
+      case 0:
+      case 0:
+        child++;
+        break;
+      case 2:
+      case 3: 
+        young++;
+        break;
+      case 4:
+      case 5:
+        mid++;
+        break;
+      default : 
+        old++;
+}
+printf("청소년=%d, young=%d, mid=%d, old=%d\n", child, young, mid, old);
+return 0;
+}
+~~~
